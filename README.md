@@ -6,6 +6,8 @@ This is a application which generate text summary  of the text dialogue .
 
 In this we use a pre trained transformer model T5 from hugging face transformer used T5 because it deals with text take text as input and generate text as output and for faster training we have use T5-small version .
 
+Also T5 (Text-to-Text transfer Transformer) is a encoder-decoder architecture it uses both components it follow a "Text-to-Text" framework where NLP task like translation , summarization are performed 
+
 In this we need to perform pre-processing of the input text .
 
 We have fin tune the model on our own dataset to train the model for a specific task i.e text summary.
