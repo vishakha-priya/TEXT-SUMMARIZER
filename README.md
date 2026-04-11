@@ -11,3 +11,7 @@ In this we need to perform pre-processing of the input text .
 We have fin tune the model on our own dataset to train the model for a specific task i.e text summary.
 
 Then save the model and used it for every summary generation .
+
+We have also deployed this model using FASTAPI (python based web frame work).
+
+FASTAPI buid a API end at the server side we have UVICORN as our web server (UVICORN is a light weight web server generally used with FASTAPI)
