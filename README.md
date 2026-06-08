@@ -1,11 +1,10 @@
 # Summarize Text
 
+This is the GenAI based project .
 
-This is one of the application of NLP and GenAI.
+In This we  generate text summary for the text dialogue .
 
-This is a application which generate text summary for the text dialogue .
-
-In this we use a pre trained transformer model T5 (Encoder Decoder transformer) from hugging face transformer used T5 because it deals with text .Text as input and generate text as output and for faster training we have use T5-small (version) .
+In this we use a pre trained transformer model T5 (Encoder Decoder transformer) from hugging face transformer used T5 because it deals with text .Text as input and generate text as output and for faster training we have use T5-small (version of T5) .
 
 Also T5 (Text-to-Text transfer Transformer) is a encoder-decoder architecture it uses both components it follow a "Text-to-Text" framework where NLP task like translation , summarization are performed 
 
@@ -13,7 +12,7 @@ Also T5 (Text-to-Text transfer Transformer) is a encoder-decoder architecture it
 
 step 1: Before generating output we have to perform pre-processing for the input text like cleaning ,converting to Tokenid.
 
-step2: For TokenIds in our T5 model we have pre-trained tokenizer we use it to convert our input to tokenids after tokenization we have "Token_ids" for each tokens generated and also have "Attention mask" respect to each tokenid which describe which tokenid is valid or invalid
+step 2: For TokenIds in our T5 model we have pre-trained tokenizer we use it to convert our input to tokenids after tokenization we have "Token_ids" for each tokens generated and also have "Attention mask" respect to each tokenid which describe which tokenid is valid or invalid and also the token for the labels 
 
 step3:Load the model and assign the device 
 
@@ -28,7 +27,7 @@ step1: clean input data
 
 step2: Tokenize the data with tokenizer of T5 
 
-step3: Input the Toekns to the Model to generate the summary
+step3: Input the Tokens to the Model to generate the summary
 
 step4: Decode the summary_Token_id  with the Tokenizer to text
 
