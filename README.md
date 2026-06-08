@@ -1,5 +1,6 @@
 # Summarize Text
 
+
 This is one of the application of NLP and GenAI.
 
 This is a application which generate text summary for the text dialogue .
